@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF03DAC5"
+
+    tools:context=".singin">
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/people"
+        android:drawableLeft="@drawable/people"
+        android:drawablePadding="20dp"
+        android:hint="@string/enter_your_name"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n"
+        android:layout_marginHorizontal="50dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="20dp"
+        android:hint="@string/enter_you_email"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/E"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/next"
+        android:onClick="Button1"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/butt"/>
+
+
+</RelativeLayout>

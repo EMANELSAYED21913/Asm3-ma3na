@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Esma3 ma3na</string>
+    <string name="enter_your_name">enter_your_name</string>
+    <string name="enter_you_email">enter_you_email</string>
+    <string name="next">next</string>
+    <string name="scientific">scientific</string>
+    <string name="religious">Religious</string>
+    <string name="politics">politics</string>
+    <string name="math">math</string>
+    <string name="feedback">feedback</string>
+    <string name="contact_us">contact us</string>
+    <string name="holly_quran">Holly Quran</string>
+    <string name="quran">Quran</string>
+    <string name="historical">historical</string>
+    <string name="triangle">triangle</string>
+    <string name="squre">squre</string>
+    <string name="geography">geography</string>
+    <string name="pioloegy">pioloegy</string>
+    <string name="science">science</string>
+    <string name="history">history</string>
+    <string name="dowenloud">Dowenloud</string>
+</resources>
